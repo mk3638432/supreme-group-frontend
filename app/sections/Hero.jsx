@@ -28,11 +28,10 @@ export default function Hero() {
         transition={{ duration: 1.2 }}
         className="z-20 text-center text-white px-4"
       >
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">
-          Driven by performance
-        </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto mb-6">
-          Soft trims and NVH solutions for seamless rides
+        <h1 className="">Driven by performance</h1>
+        <p className="text-6xl font-bold md:text-xl">
+          Soft trims and <span className="font-Manrope"> NVH solutions </span>{" "}
+          <p> for seamless rides </p>
         </p>
       </motion.div>
     </section>
