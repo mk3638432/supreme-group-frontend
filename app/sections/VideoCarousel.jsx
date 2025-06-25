@@ -16,9 +16,8 @@ import {
 // Video source mapping
 const videoMap = {
   passenger: {
-    complete: "/public/videos/Passenger Alpha.mp4",
-
-    front: "/public/videos/Front.mp4",
+    complete: "/videos/Passenger Alpha.mp4",
+    front: "/videos/Front.mp4",
     cabin: "/videos/Cabin.mp4",
     trunk: "/videos/Trunk.mp4",
     exterior: "/videos/Exterior.mp4",
@@ -86,7 +85,6 @@ export default function VideoCarousel({ selected = "passenger" }) {
           </AnimatePresence>
         </div>
 
-        {/* Controls */}
         <div className="flex flex-wrap items-center justify-center gap-6">
           {partIcons[selected].map(({ key, label, icon: Icon }) => (
             <motion.button
