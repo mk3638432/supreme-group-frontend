@@ -13,7 +13,7 @@ export default function Hero() {
         muted
         playsInline
       >
-        <source src="/videos/automotive.mp4" type="video/mp4" />
+        <source src="/automotive.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
