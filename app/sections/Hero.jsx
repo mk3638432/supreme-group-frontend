@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
+    <section className="relative w-full h-[50vh] sm:h-[70vh] lg:h-screen flex items-center justify-center overflow-hidden">
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
         autoPlay

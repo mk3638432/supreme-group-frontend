@@ -24,7 +24,7 @@ export default function DriveMessage() {
     <section ref={ref} className="relative h-[200vh] bg-black text-white">
       <div className="sticky top-0 h-screen flex flex-col justify-center items-center">
         <motion.p
-          className="text-center text-2xl md:text-4xl font-light mb-8"
+          className="text-center mt-[100px] text-2xl md:text-4xl font-light mb-8"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
