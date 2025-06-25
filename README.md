@@ -2,7 +2,7 @@
 ## Getting Started
 
 
-# 🚗 Supreme Group – Frontend Clone
+# 🚗 Supreme Group – Frontend Task
 
 A pixel-perfect, responsive clone of the Supreme Group homepage using **Next.js 15 App Router**, **Tailwind CSS**, and **Framer Motion**. It features a background MP4 video, scroll animations, and responsive layout.
 
