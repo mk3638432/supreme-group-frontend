@@ -26,7 +26,6 @@ A pixel-perfect, responsive clone of the Supreme Group homepage using **Next.js 
 
 ---
 
-## 📁 Folder Structure
 
 
 
