@@ -64,7 +64,7 @@ export default function VideoCarousel({ selected = "passenger" }) {
   }, [selected]);
 
   return (
-    <section className="bg-black text-white  py-10 px-4">
+    <section className="bg-black text-white   px-4">
       <div className="max-w-6xl mx-auto flex flex-col gap-8">
         <div className="relative rounded-lg overflow-hidden aspect-video w-full">
           <AnimatePresence mode="wait">
