@@ -2,6 +2,37 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+
+# 🚗 Supreme Group – Frontend Clone
+
+A pixel-perfect, responsive clone of the Supreme Group homepage using **Next.js 15 App Router**, **Tailwind CSS**, and **Framer Motion**. It features a background MP4 video, scroll animations, and responsive layout.
+
+---
+
+## 🔗 Live Demo
+
+🌐 [View Site on Vercel](https://supreme-group-frontend.vercel.app)
+
+![Supreme Group Clone Screenshot](https://raw.githubusercontent.com/mk3638432/supreme-group-frontend/master/public/screenshot.png)
+
+---
+
+## 🧱 Tech Stack
+
+- ⚛️ **Next.js 15 (App Router)**
+- 🎨 **Tailwind CSS**
+- 🎞 **Framer Motion**
+- 🎬 HTML5 `<video>` for background playback
+- ☁️ **Vercel** for hosting and deployment
+
+---
+
+## 📁 Folder Structure
+
+
+
+
+
 First, run the development server:
 
 ```bash
