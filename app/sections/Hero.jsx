@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
-      {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
         autoPlay
@@ -18,20 +17,24 @@ export default function Hero() {
         Your browser does not support the video tag.
       </video>
 
-      {/* Overlay */}
       <div className="absolute top-0 left-0 w-full h-full bg-black/60 z-10" />
 
-      {/* Animated Text Content */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2 }}
         className="z-20 text-center text-white px-4"
       >
-        <h1 className="">Driven by performance</h1>
-        <p className="text-6xl font-bold md:text-xl">
-          Soft trims and <span className="font-Manrope"> NVH solutions </span>{" "}
-          <p> for seamless rides </p>
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-4 opacity-75">
+          Driven by performance
+        </h1>
+
+        <p className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight">
+          <span className="font-medium">Soft trims and</span>{" "}
+          <span className=" text-sky-500 font-bold"> NVH solutions </span>{" "}
+          <span className="block text-3xl md:text-4xl lg:text-5xl font-light mt-2">
+            for seamless rides
+          </span>
         </p>
       </motion.div>
     </section>

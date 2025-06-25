@@ -50,8 +50,10 @@ export default function DriveMessage() {
                 className="cursor-pointer"
                 onClick={() => setSelected("passenger")}
               >
-                <h3 className="text-xl font-semibold">Passenger vehicles</h3>
-                <p className="text-sm">
+                <h3 className="text-3xl md:text-4xl font-bold mb-2">
+                  Passenger vehicles
+                </h3>
+                <p className="text-base md:text-lg font-light text-gray-400 group-hover:text-white transition-colors duration-200">
                   Revving up innovation from interior to exterior.
                 </p>
               </button>
@@ -69,8 +71,10 @@ export default function DriveMessage() {
                 className="cursor-pointer"
                 onClick={() => setSelected("commercial")}
               >
-                <h3 className="text-xl font-semibold">Commercial vehicles</h3>
-                <p className="text-sm">
+                <h3 className="text-3xl md:text-4xl font-bold mb-2">
+                  Commercial vehicles
+                </h3>
+                <p className="text-base md:text-lg font-light text-gray-400 group-hover:text-white transition-colors duration-200">
                   Advancing engineering for heavy-duty vehicles.
                 </p>
               </button>

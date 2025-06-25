@@ -66,7 +66,6 @@ export default function VideoCarousel({ selected = "passenger" }) {
   return (
     <section className="bg-black text-white py-10 px-4">
       <div className="max-w-6xl mx-auto flex flex-col gap-8">
-        {/* Video Container */}
         <div className="relative rounded-lg overflow-hidden aspect-video w-full">
           <AnimatePresence mode="wait">
             <motion.video
@@ -105,7 +104,6 @@ export default function VideoCarousel({ selected = "passenger" }) {
             </motion.button>
           ))}
 
-          {/* Play/Pause Button */}
           <motion.button
             onClick={togglePlay}
             whileTap={{ scale: 0.95 }}
